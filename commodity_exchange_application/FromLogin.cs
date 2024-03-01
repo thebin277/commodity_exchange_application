@@ -10,11 +10,19 @@ using System.Windows.Forms;
 
 namespace commodity_exchange_application
 {
-    public partial class Form1 : Form
+    public partial class FromLogin : Form
     {
-        public Form1()
+        public FromLogin()
         {
             InitializeComponent();
+        }
+
+        private void gunaButton1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FormHome formHome = new FormHome();
+            formHome.ShowDialog();
+            this.Close();
         }
     }
 }
