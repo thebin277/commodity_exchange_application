@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.gunaTextBox1 = new Guna.UI.WinForms.GunaTextBox();
-            this.gunaTextBox2 = new Guna.UI.WinForms.GunaTextBox();
-            this.gunaButton1 = new Guna.UI.WinForms.GunaButton();
+            this.txtUserName = new Guna.UI.WinForms.GunaTextBox();
+            this.txtPassWord = new Guna.UI.WinForms.GunaTextBox();
+            this.btnSignIn = new Guna.UI.WinForms.GunaButton();
             this.gunaLabel2 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel3 = new Guna.UI.WinForms.GunaLabel();
             this.gunaPanel2 = new Guna.UI.WinForms.GunaPanel();
@@ -38,71 +38,72 @@
             this.gunaLabel1 = new Guna.UI.WinForms.GunaLabel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.gunaPanel1 = new Guna.UI.WinForms.GunaPanel();
+            this.btnSignUp = new Guna.UI.WinForms.GunaButton();
             this.gunaPanel3.SuspendLayout();
             this.SuspendLayout();
             // 
-            // gunaTextBox1
+            // txtUserName
             // 
-            this.gunaTextBox1.BackColor = System.Drawing.Color.Transparent;
-            this.gunaTextBox1.BaseColor = System.Drawing.Color.White;
-            this.gunaTextBox1.BorderColor = System.Drawing.Color.Transparent;
-            this.gunaTextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.gunaTextBox1.FocusedBaseColor = System.Drawing.Color.White;
-            this.gunaTextBox1.FocusedBorderColor = System.Drawing.Color.White;
-            this.gunaTextBox1.FocusedForeColor = System.Drawing.SystemColors.ControlText;
-            this.gunaTextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaTextBox1.Location = new System.Drawing.Point(469, 185);
-            this.gunaTextBox1.Name = "gunaTextBox1";
-            this.gunaTextBox1.PasswordChar = '\0';
-            this.gunaTextBox1.Radius = 20;
-            this.gunaTextBox1.SelectedText = "";
-            this.gunaTextBox1.Size = new System.Drawing.Size(298, 30);
-            this.gunaTextBox1.TabIndex = 3;
+            this.txtUserName.BackColor = System.Drawing.Color.Transparent;
+            this.txtUserName.BaseColor = System.Drawing.Color.White;
+            this.txtUserName.BorderColor = System.Drawing.Color.Transparent;
+            this.txtUserName.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtUserName.FocusedBaseColor = System.Drawing.Color.White;
+            this.txtUserName.FocusedBorderColor = System.Drawing.Color.White;
+            this.txtUserName.FocusedForeColor = System.Drawing.SystemColors.ControlText;
+            this.txtUserName.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtUserName.Location = new System.Drawing.Point(469, 185);
+            this.txtUserName.Name = "txtUserName";
+            this.txtUserName.PasswordChar = '\0';
+            this.txtUserName.Radius = 20;
+            this.txtUserName.SelectedText = "";
+            this.txtUserName.Size = new System.Drawing.Size(298, 30);
+            this.txtUserName.TabIndex = 3;
             // 
-            // gunaTextBox2
+            // txtPassWord
             // 
-            this.gunaTextBox2.BackColor = System.Drawing.Color.Transparent;
-            this.gunaTextBox2.BaseColor = System.Drawing.Color.White;
-            this.gunaTextBox2.BorderColor = System.Drawing.Color.Transparent;
-            this.gunaTextBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.gunaTextBox2.FocusedBaseColor = System.Drawing.Color.White;
-            this.gunaTextBox2.FocusedBorderColor = System.Drawing.Color.White;
-            this.gunaTextBox2.FocusedForeColor = System.Drawing.SystemColors.ControlText;
-            this.gunaTextBox2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaTextBox2.Location = new System.Drawing.Point(469, 249);
-            this.gunaTextBox2.Name = "gunaTextBox2";
-            this.gunaTextBox2.PasswordChar = '\0';
-            this.gunaTextBox2.Radius = 20;
-            this.gunaTextBox2.SelectedText = "";
-            this.gunaTextBox2.Size = new System.Drawing.Size(298, 30);
-            this.gunaTextBox2.TabIndex = 4;
+            this.txtPassWord.BackColor = System.Drawing.Color.Transparent;
+            this.txtPassWord.BaseColor = System.Drawing.Color.White;
+            this.txtPassWord.BorderColor = System.Drawing.Color.Transparent;
+            this.txtPassWord.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtPassWord.FocusedBaseColor = System.Drawing.Color.White;
+            this.txtPassWord.FocusedBorderColor = System.Drawing.Color.White;
+            this.txtPassWord.FocusedForeColor = System.Drawing.SystemColors.ControlText;
+            this.txtPassWord.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtPassWord.Location = new System.Drawing.Point(469, 249);
+            this.txtPassWord.Name = "txtPassWord";
+            this.txtPassWord.PasswordChar = '\0';
+            this.txtPassWord.Radius = 20;
+            this.txtPassWord.SelectedText = "";
+            this.txtPassWord.Size = new System.Drawing.Size(298, 30);
+            this.txtPassWord.TabIndex = 4;
             // 
-            // gunaButton1
+            // btnSignIn
             // 
-            this.gunaButton1.AnimationHoverSpeed = 0.07F;
-            this.gunaButton1.AnimationSpeed = 0.03F;
-            this.gunaButton1.BackColor = System.Drawing.Color.Transparent;
-            this.gunaButton1.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.gunaButton1.BorderColor = System.Drawing.Color.Transparent;
-            this.gunaButton1.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton1.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaButton1.ForeColor = System.Drawing.Color.White;
-            this.gunaButton1.Image = null;
-            this.gunaButton1.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton1.Location = new System.Drawing.Point(503, 316);
-            this.gunaButton1.Name = "gunaButton1";
-            this.gunaButton1.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
-            this.gunaButton1.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaButton1.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaButton1.OnHoverImage = null;
-            this.gunaButton1.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton1.Radius = 20;
-            this.gunaButton1.Size = new System.Drawing.Size(169, 44);
-            this.gunaButton1.TabIndex = 5;
-            this.gunaButton1.Text = "Sign in";
-            this.gunaButton1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.gunaButton1.Click += new System.EventHandler(this.gunaButton1_Click);
+            this.btnSignIn.AnimationHoverSpeed = 0.07F;
+            this.btnSignIn.AnimationSpeed = 0.03F;
+            this.btnSignIn.BackColor = System.Drawing.Color.Transparent;
+            this.btnSignIn.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.btnSignIn.BorderColor = System.Drawing.Color.Transparent;
+            this.btnSignIn.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btnSignIn.FocusedColor = System.Drawing.Color.Empty;
+            this.btnSignIn.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnSignIn.ForeColor = System.Drawing.Color.White;
+            this.btnSignIn.Image = null;
+            this.btnSignIn.ImageSize = new System.Drawing.Size(20, 20);
+            this.btnSignIn.Location = new System.Drawing.Point(395, 318);
+            this.btnSignIn.Name = "btnSignIn";
+            this.btnSignIn.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
+            this.btnSignIn.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btnSignIn.OnHoverForeColor = System.Drawing.Color.White;
+            this.btnSignIn.OnHoverImage = null;
+            this.btnSignIn.OnPressedColor = System.Drawing.Color.Black;
+            this.btnSignIn.Radius = 20;
+            this.btnSignIn.Size = new System.Drawing.Size(169, 44);
+            this.btnSignIn.TabIndex = 5;
+            this.btnSignIn.Text = "Đăng nhập";
+            this.btnSignIn.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btnSignIn.Click += new System.EventHandler(this.gunaButton1_Click);
             // 
             // gunaLabel2
             // 
@@ -170,18 +171,45 @@
             this.gunaPanel1.Size = new System.Drawing.Size(346, 457);
             this.gunaPanel1.TabIndex = 0;
             // 
+            // btnSignUp
+            // 
+            this.btnSignUp.AnimationHoverSpeed = 0.07F;
+            this.btnSignUp.AnimationSpeed = 0.03F;
+            this.btnSignUp.BackColor = System.Drawing.Color.Transparent;
+            this.btnSignUp.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.btnSignUp.BorderColor = System.Drawing.Color.Transparent;
+            this.btnSignUp.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btnSignUp.FocusedColor = System.Drawing.Color.Empty;
+            this.btnSignUp.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnSignUp.ForeColor = System.Drawing.Color.White;
+            this.btnSignUp.Image = null;
+            this.btnSignUp.ImageSize = new System.Drawing.Size(20, 20);
+            this.btnSignUp.Location = new System.Drawing.Point(598, 318);
+            this.btnSignUp.Name = "btnSignUp";
+            this.btnSignUp.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
+            this.btnSignUp.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btnSignUp.OnHoverForeColor = System.Drawing.Color.White;
+            this.btnSignUp.OnHoverImage = null;
+            this.btnSignUp.OnPressedColor = System.Drawing.Color.Black;
+            this.btnSignUp.Radius = 20;
+            this.btnSignUp.Size = new System.Drawing.Size(169, 44);
+            this.btnSignUp.TabIndex = 10;
+            this.btnSignUp.Text = "Đăng ký";
+            this.btnSignUp.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // FromLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnSignUp);
             this.Controls.Add(this.gunaPanel3);
             this.Controls.Add(this.gunaPanel2);
             this.Controls.Add(this.gunaLabel3);
             this.Controls.Add(this.gunaLabel2);
-            this.Controls.Add(this.gunaButton1);
-            this.Controls.Add(this.gunaTextBox2);
-            this.Controls.Add(this.gunaTextBox1);
+            this.Controls.Add(this.btnSignIn);
+            this.Controls.Add(this.txtPassWord);
+            this.Controls.Add(this.txtUserName);
             this.Controls.Add(this.gunaPanel1);
             this.Name = "FromLogin";
             this.Text = "Login";
@@ -195,15 +223,16 @@
         #endregion
 
         private Guna.UI.WinForms.GunaPanel gunaPanel1;
-        private Guna.UI.WinForms.GunaTextBox gunaTextBox1;
-        private Guna.UI.WinForms.GunaTextBox gunaTextBox2;
-        private Guna.UI.WinForms.GunaButton gunaButton1;
+        private Guna.UI.WinForms.GunaTextBox txtUserName;
+        private Guna.UI.WinForms.GunaTextBox txtPassWord;
+        private Guna.UI.WinForms.GunaButton btnSignIn;
         private Guna.UI.WinForms.GunaLabel gunaLabel2;
         private Guna.UI.WinForms.GunaLabel gunaLabel3;
         private Guna.UI.WinForms.GunaPanel gunaPanel2;
         private Guna.UI.WinForms.GunaPanel gunaPanel3;
         private Guna.UI.WinForms.GunaLabel gunaLabel1;
         private System.Windows.Forms.Panel panel1;
+        private Guna.UI.WinForms.GunaButton btnSignUp;
     }
 }
 
