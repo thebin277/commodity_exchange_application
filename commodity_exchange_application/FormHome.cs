@@ -17,6 +17,15 @@ namespace commodity_exchange_application
             InitializeComponent();
         }
 
+        public void AddControls(Form f)
+        {
+            ControlsPanel.Controls.Clear();
+            f.Dock = DockStyle.Fill;
+            f.TopLevel = false;
+            ControlsPanel.Controls.Add(f);
+            f.Show();
+        }
+
         private void FormHome_Load(object sender, EventArgs e)
         {
 
@@ -25,6 +34,11 @@ namespace commodity_exchange_application
         private void gunaButton1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnID_Click(object sender, EventArgs e)
+        {
+            AddControls(new FormPersonal_Information());
         }
     }
 }
