@@ -33,7 +33,7 @@ namespace commodity_exchange_application
 
         private void gunaButton1_Click(object sender, EventArgs e)
         {
-
+            AddControls(new FormMatHang());
         }
 
         private void btnID_Click(object sender, EventArgs e)
