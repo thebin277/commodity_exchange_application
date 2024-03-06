@@ -57,6 +57,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormAccountSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAccountSettings.Designer.cs">
+      <DependentUpon>FormAccountSettings.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormDK_Ban.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -68,6 +74,18 @@
     </Compile>
     <Compile Include="FormHome.Designer.cs">
       <DependentUpon>FormHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormItemDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormItemDetails.Designer.cs">
+      <DependentUpon>FormItemDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormItemsforSale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormItemsforSale.Designer.cs">
+      <DependentUpon>FormItemsforSale.cs</DependentUpon>
     </Compile>
     <Compile Include="FormMessenger.cs">
       <SubType>Form</SubType>
@@ -81,26 +99,53 @@
     <Compile Include="FormMess_List.Designer.cs">
       <DependentUpon>FormMess_List.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormPersonalIdentification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPersonalIdentification.Designer.cs">
+      <DependentUpon>FormPersonalIdentification.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormPersonal_Information .cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormPersonal_Information .Designer.cs">
       <DependentUpon>FormPersonal_Information .cs</DependentUpon>
     </Compile>
-    <Compile Include="FromLogin.cs">
+    <Compile Include="FormPostManagement.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FromLogin.Designer.cs">
-      <DependentUpon>FromLogin.cs</DependentUpon>
+    <Compile Include="FormPostManagement.Designer.cs">
+      <DependentUpon>FormPostManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSignUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSignUp.Designer.cs">
+      <DependentUpon>FormSignUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
     </Compile>
     <Compile Include="Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormAccountSettings.resx">
+      <DependentUpon>FormAccountSettings.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormDK_Ban.resx">
       <DependentUpon>FormDK_Ban.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormHome.resx">
       <DependentUpon>FormHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormItemDetails.resx">
+      <DependentUpon>FormItemDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormItemsforSale.resx">
+      <DependentUpon>FormItemsforSale.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormMessenger.resx">
       <DependentUpon>FormMessenger.cs</DependentUpon>
@@ -108,11 +153,20 @@
     <EmbeddedResource Include="FormMess_List.resx">
       <DependentUpon>FormMess_List.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormPersonalIdentification.resx">
+      <DependentUpon>FormPersonalIdentification.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormPersonal_Information .resx">
       <DependentUpon>FormPersonal_Information .cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FromLogin.resx">
-      <DependentUpon>FromLogin.cs</DependentUpon>
+    <EmbeddedResource Include="FormPostManagement.resx">
+      <DependentUpon>FormPostManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSignUp.resx">
+      <DependentUpon>FormSignUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

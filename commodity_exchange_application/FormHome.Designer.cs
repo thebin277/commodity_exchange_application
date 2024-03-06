@@ -43,10 +43,9 @@
             // ControlsPanel
             // 
             this.ControlsPanel.BackColor = System.Drawing.Color.White;
-            this.ControlsPanel.Location = new System.Drawing.Point(235, -2);
-            this.ControlsPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ControlsPanel.Location = new System.Drawing.Point(176, -2);
             this.ControlsPanel.Name = "ControlsPanel";
-            this.ControlsPanel.Size = new System.Drawing.Size(1080, 692);
+            this.ControlsPanel.Size = new System.Drawing.Size(810, 562);
             this.ControlsPanel.TabIndex = 1;
             // 
             // gunaPanel2
@@ -58,20 +57,18 @@
             this.gunaPanel2.Controls.Add(this.btnControl);
             this.gunaPanel2.Controls.Add(this.btnMess);
             this.gunaPanel2.Controls.Add(this.btnHome);
-            this.gunaPanel2.Location = new System.Drawing.Point(-5, -6);
-            this.gunaPanel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gunaPanel2.Location = new System.Drawing.Point(-4, -5);
             this.gunaPanel2.Name = "gunaPanel2";
-            this.gunaPanel2.Size = new System.Drawing.Size(240, 710);
+            this.gunaPanel2.Size = new System.Drawing.Size(180, 577);
             this.gunaPanel2.TabIndex = 2;
             // 
             // gunaLabel1
             // 
             this.gunaLabel1.AutoSize = true;
             this.gunaLabel1.Font = new System.Drawing.Font("Segoe UI Semibold", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabel1.Location = new System.Drawing.Point(45, 148);
-            this.gunaLabel1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.gunaLabel1.Location = new System.Drawing.Point(34, 120);
             this.gunaLabel1.Name = "gunaLabel1";
-            this.gunaLabel1.Size = new System.Drawing.Size(140, 46);
+            this.gunaLabel1.Size = new System.Drawing.Size(112, 37);
             this.gunaLabel1.TabIndex = 5;
             this.gunaLabel1.Text = "Aladdin";
             // 
@@ -80,10 +77,9 @@
             this.gunaPanel3.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.gunaPanel3.BackgroundImage = global::commodity_exchange_application.Properties.Resources.logo;
             this.gunaPanel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.gunaPanel3.Location = new System.Drawing.Point(0, 4);
-            this.gunaPanel3.Margin = new System.Windows.Forms.Padding(4);
+            this.gunaPanel3.Location = new System.Drawing.Point(0, 3);
             this.gunaPanel3.Name = "gunaPanel3";
-            this.gunaPanel3.Size = new System.Drawing.Size(240, 148);
+            this.gunaPanel3.Size = new System.Drawing.Size(180, 120);
             this.gunaPanel3.TabIndex = 4;
             // 
             // btnID
@@ -99,8 +95,7 @@
             this.btnID.ForeColor = System.Drawing.Color.White;
             this.btnID.Image = ((System.Drawing.Image)(resources.GetObject("btnID.Image")));
             this.btnID.ImageSize = new System.Drawing.Size(20, 20);
-            this.btnID.Location = new System.Drawing.Point(13, 596);
-            this.btnID.Margin = new System.Windows.Forms.Padding(4);
+            this.btnID.Location = new System.Drawing.Point(10, 484);
             this.btnID.Name = "btnID";
             this.btnID.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
             this.btnID.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -108,7 +103,7 @@
             this.btnID.OnHoverImage = null;
             this.btnID.OnPressedColor = System.Drawing.Color.Black;
             this.btnID.Radius = 20;
-            this.btnID.Size = new System.Drawing.Size(219, 55);
+            this.btnID.Size = new System.Drawing.Size(164, 45);
             this.btnID.TabIndex = 3;
             this.btnID.Text = "Cá nhân";
             this.btnID.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -127,8 +122,7 @@
             this.btnControl.ForeColor = System.Drawing.Color.White;
             this.btnControl.Image = ((System.Drawing.Image)(resources.GetObject("btnControl.Image")));
             this.btnControl.ImageSize = new System.Drawing.Size(20, 20);
-            this.btnControl.Location = new System.Drawing.Point(13, 481);
-            this.btnControl.Margin = new System.Windows.Forms.Padding(4);
+            this.btnControl.Location = new System.Drawing.Point(10, 391);
             this.btnControl.Name = "btnControl";
             this.btnControl.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
             this.btnControl.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -136,10 +130,11 @@
             this.btnControl.OnHoverImage = null;
             this.btnControl.OnPressedColor = System.Drawing.Color.Black;
             this.btnControl.Radius = 20;
-            this.btnControl.Size = new System.Drawing.Size(219, 55);
+            this.btnControl.Size = new System.Drawing.Size(164, 45);
             this.btnControl.TabIndex = 2;
             this.btnControl.Text = "Quản lý bài đăng";
             this.btnControl.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btnControl.Click += new System.EventHandler(this.btnControl_Click);
             // 
             // btnMess
             // 
@@ -154,8 +149,7 @@
             this.btnMess.ForeColor = System.Drawing.Color.White;
             this.btnMess.Image = ((System.Drawing.Image)(resources.GetObject("btnMess.Image")));
             this.btnMess.ImageSize = new System.Drawing.Size(20, 20);
-            this.btnMess.Location = new System.Drawing.Point(13, 367);
-            this.btnMess.Margin = new System.Windows.Forms.Padding(4);
+            this.btnMess.Location = new System.Drawing.Point(10, 298);
             this.btnMess.Name = "btnMess";
             this.btnMess.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
             this.btnMess.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -163,7 +157,7 @@
             this.btnMess.OnHoverImage = null;
             this.btnMess.OnPressedColor = System.Drawing.Color.Black;
             this.btnMess.Radius = 20;
-            this.btnMess.Size = new System.Drawing.Size(219, 55);
+            this.btnMess.Size = new System.Drawing.Size(164, 45);
             this.btnMess.TabIndex = 1;
             this.btnMess.Text = "Tin nhắn";
             this.btnMess.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -182,8 +176,7 @@
             this.btnHome.ForeColor = System.Drawing.Color.White;
             this.btnHome.Image = ((System.Drawing.Image)(resources.GetObject("btnHome.Image")));
             this.btnHome.ImageSize = new System.Drawing.Size(20, 20);
-            this.btnHome.Location = new System.Drawing.Point(13, 252);
-            this.btnHome.Margin = new System.Windows.Forms.Padding(4);
+            this.btnHome.Location = new System.Drawing.Point(10, 205);
             this.btnHome.Name = "btnHome";
             this.btnHome.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
             this.btnHome.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -191,7 +184,7 @@
             this.btnHome.OnHoverImage = null;
             this.btnHome.OnPressedColor = System.Drawing.Color.Black;
             this.btnHome.Radius = 20;
-            this.btnHome.Size = new System.Drawing.Size(219, 55);
+            this.btnHome.Size = new System.Drawing.Size(164, 45);
             this.btnHome.TabIndex = 0;
             this.btnHome.Text = "Mặt hàng";
             this.btnHome.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -199,12 +192,11 @@
             // 
             // FormHome
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1312, 690);
+            this.ClientSize = new System.Drawing.Size(984, 561);
             this.Controls.Add(this.gunaPanel2);
             this.Controls.Add(this.ControlsPanel);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FormHome";
             this.Text = "FormHome";
             this.Load += new System.EventHandler(this.FormHome_Load);

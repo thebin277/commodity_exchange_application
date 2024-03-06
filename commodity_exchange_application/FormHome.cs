@@ -45,5 +45,10 @@ namespace commodity_exchange_application
         {
             AddControls(new FormMessenger());
         }
+
+        private void btnControl_Click(object sender, EventArgs e)
+        {
+            AddControls(new FormPostManagement());
+        }
     }
 }

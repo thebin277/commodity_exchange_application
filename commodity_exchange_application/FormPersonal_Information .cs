@@ -16,5 +16,21 @@ namespace commodity_exchange_application
         {
             InitializeComponent();
         }
+
+        private void gunaButton1_Click(object sender, EventArgs e)
+        {
+         //   this.Hide();
+            FormPersonalIdentification FormPersonalIdentification = new FormPersonalIdentification();
+            FormPersonalIdentification.ShowDialog();
+           // this.Close();
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            //   this.Hide();
+            FormPersonalIdentification FormPersonalIdentification = new FormPersonalIdentification();
+            FormPersonalIdentification.ShowDialog();
+            // this.Close();
+        }
     }
 }
