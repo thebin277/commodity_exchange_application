@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace commodity_exchange_application
 {
-    public partial class FormHome : Form
+    public partial class FormMessenger : Form
     {
-        public FormHome()
+        public FormMessenger()
         {
             InitializeComponent();
         }
@@ -26,24 +26,24 @@ namespace commodity_exchange_application
             f.Show();
         }
 
-        private void FormHome_Load(object sender, EventArgs e)
+        private void btnALL_Click(object sender, EventArgs e)
         {
-
+            AddControls(new FormMess_List());
         }
 
-        private void gunaButton1_Click(object sender, EventArgs e)
+        private void guna2Button1_Click(object sender, EventArgs e)
         {
-
+            AddControls(new FormMess_List());
         }
 
-        private void btnID_Click(object sender, EventArgs e)
+        private void guna2Button2_Click(object sender, EventArgs e)
         {
-            AddControls(new FormPersonal_Information());
+            AddControls(new FormMess_List());
         }
 
-        private void btnMess_Click(object sender, EventArgs e)
+        private void guna2Button3_Click(object sender, EventArgs e)
         {
-            AddControls(new FormMessenger());
+            AddControls(new FormMess_List());
         }
     }
 }

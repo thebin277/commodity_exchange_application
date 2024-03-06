@@ -26,3 +26,8 @@ D:\Năm 3 - HK2\Lập trình Window\Đồ_Án_Cuối_Kỳ\commodity_exchange_app
 D:\Năm 3 - HK2\Lập trình Window\Đồ_Án_Cuối_Kỳ\commodity_exchange_application\commodity_exchange_application\obj\Debug\commodity_exchange_application.exe
 D:\Năm 3 - HK2\Lập trình Window\Đồ_Án_Cuối_Kỳ\commodity_exchange_application\commodity_exchange_application\obj\Debug\commodity_exchange_application.pdb
 D:\Bin\HK2_3\Lap_Trinh_Win\DO_An\commodity_exchange_application\commodity_exchange_application\obj\Debug\commodity_exchange_application.FormPersonal_Information.resources
+D:\Năm 3 - HK2\Lập trình Window\Đồ_Án_Cuối_Kỳ\commodity_exchange_application\commodity_exchange_application\obj\Debug\commodity_exchange_application.FormPersonal_Information.resources
+D:\Năm 3 - HK2\Lập trình Window\Đồ_Án_Cuối_Kỳ\commodity_exchange_application\commodity_exchange_application\obj\Debug\commodity_exchange_application.FormMessenger.resources
+D:\Năm 3 - HK2\Lập trình Window\Đồ_Án_Cuối_Kỳ\commodity_exchange_application\commodity_exchange_application\obj\Debug\commodity_exchange_application.FormMess_List.resources
+D:\Năm 3 - HK2\Lập trình Window\Đồ_Án_Cuối_Kỳ\commodity_exchange_application\commodity_exchange_application\bin\Debug\Guna.UI2.dll
+D:\Năm 3 - HK2\Lập trình Window\Đồ_Án_Cuối_Kỳ\commodity_exchange_application\commodity_exchange_application\obj\Debug\commodity_exchange_application.FormDK_Ban.resources
