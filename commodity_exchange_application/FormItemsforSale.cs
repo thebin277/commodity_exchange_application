@@ -16,5 +16,15 @@ namespace commodity_exchange_application
         {
             InitializeComponent();
         }
+
+        private void guna2ShadowPanel1_MouseEnter(object sender, EventArgs e)
+        {
+            ((Guna.UI2.WinForms.Guna2ShadowPanel)sender).FillColor = Color.LightBlue;
+        }
+
+        private void guna2ShadowPanel1_MouseLeave(object sender, EventArgs e)
+        {
+            ((Guna.UI2.WinForms.Guna2ShadowPanel)sender).FillColor = Color.White;
+        }
     }
 }

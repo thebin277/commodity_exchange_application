@@ -32,5 +32,14 @@ namespace commodity_exchange_application
             FormPersonalIdentification.ShowDialog();
             // this.Close();
         }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            this.ParentForm.Hide();
+            FormLogin FormLogin = new FormLogin();
+           // this.Visible = false;
+            FormLogin.ShowDialog();
+            this.ParentForm.Close();
+        }
     }
 }
