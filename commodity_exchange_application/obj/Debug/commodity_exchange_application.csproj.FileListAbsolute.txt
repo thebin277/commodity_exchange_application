@@ -5,7 +5,6 @@ D:\Bin\HK2_3\Lap_Trinh_Win\DO_An\commodity_exchange_application\commodity_exchan
 D:\Bin\HK2_3\Lap_Trinh_Win\DO_An\commodity_exchange_application\commodity_exchange_application\obj\Debug\commodity_exchange_application.csproj.AssemblyReference.cache
 D:\Bin\HK2_3\Lap_Trinh_Win\DO_An\commodity_exchange_application\commodity_exchange_application\obj\Debug\commodity_exchange_application.csproj.SuggestedBindingRedirects.cache
 D:\Bin\HK2_3\Lap_Trinh_Win\DO_An\commodity_exchange_application\commodity_exchange_application\obj\Debug\commodity_exchange_application.FormHome.resources
-D:\Bin\HK2_3\Lap_Trinh_Win\DO_An\commodity_exchange_application\commodity_exchange_application\obj\Debug\commodity_exchange_application.FromLogin.resources
 D:\Bin\HK2_3\Lap_Trinh_Win\DO_An\commodity_exchange_application\commodity_exchange_application\obj\Debug\commodity_exchange_application.Properties.Resources.resources
 D:\Bin\HK2_3\Lap_Trinh_Win\DO_An\commodity_exchange_application\commodity_exchange_application\obj\Debug\commodity_exchange_application.csproj.GenerateResource.cache
 D:\Bin\HK2_3\Lap_Trinh_Win\DO_An\commodity_exchange_application\commodity_exchange_application\obj\Debug\commodity_exchange_application.csproj.CoreCompileInputs.cache
@@ -18,7 +17,6 @@ D:\Năm 3 - HK2\Lập trình Window\Đồ_Án_Cuối_Kỳ\commodity_exchange_app
 D:\Năm 3 - HK2\Lập trình Window\Đồ_Án_Cuối_Kỳ\commodity_exchange_application\commodity_exchange_application\obj\Debug\commodity_exchange_application.csproj.AssemblyReference.cache
 D:\Năm 3 - HK2\Lập trình Window\Đồ_Án_Cuối_Kỳ\commodity_exchange_application\commodity_exchange_application\obj\Debug\commodity_exchange_application.csproj.SuggestedBindingRedirects.cache
 D:\Năm 3 - HK2\Lập trình Window\Đồ_Án_Cuối_Kỳ\commodity_exchange_application\commodity_exchange_application\obj\Debug\commodity_exchange_application.FormHome.resources
-D:\Năm 3 - HK2\Lập trình Window\Đồ_Án_Cuối_Kỳ\commodity_exchange_application\commodity_exchange_application\obj\Debug\commodity_exchange_application.FromLogin.resources
 D:\Năm 3 - HK2\Lập trình Window\Đồ_Án_Cuối_Kỳ\commodity_exchange_application\commodity_exchange_application\obj\Debug\commodity_exchange_application.Properties.Resources.resources
 D:\Năm 3 - HK2\Lập trình Window\Đồ_Án_Cuối_Kỳ\commodity_exchange_application\commodity_exchange_application\obj\Debug\commodity_exchange_application.csproj.GenerateResource.cache
 D:\Năm 3 - HK2\Lập trình Window\Đồ_Án_Cuối_Kỳ\commodity_exchange_application\commodity_exchange_application\obj\Debug\commodity_exchange_application.csproj.CoreCompileInputs.cache
@@ -31,3 +29,20 @@ D:\Năm 3 - HK2\Lập trình Window\Đồ_Án_Cuối_Kỳ\commodity_exchange_app
 D:\Năm 3 - HK2\Lập trình Window\Đồ_Án_Cuối_Kỳ\commodity_exchange_application\commodity_exchange_application\obj\Debug\commodity_exchange_application.FormMess_List.resources
 D:\Năm 3 - HK2\Lập trình Window\Đồ_Án_Cuối_Kỳ\commodity_exchange_application\commodity_exchange_application\bin\Debug\Guna.UI2.dll
 D:\Năm 3 - HK2\Lập trình Window\Đồ_Án_Cuối_Kỳ\commodity_exchange_application\commodity_exchange_application\obj\Debug\commodity_exchange_application.FormDK_Ban.resources
+D:\Bin\HK2_3\Lap_Trinh_Win\DO_An\commodity_exchange_application\commodity_exchange_application\obj\Debug\commodity_exchange_application.FormDK_Ban.resources
+D:\Bin\HK2_3\Lap_Trinh_Win\DO_An\commodity_exchange_application\commodity_exchange_application\obj\Debug\commodity_exchange_application.FormMessenger.resources
+D:\Bin\HK2_3\Lap_Trinh_Win\DO_An\commodity_exchange_application\commodity_exchange_application\obj\Debug\commodity_exchange_application.FormMess_List.resources
+D:\Bin\HK2_3\Lap_Trinh_Win\DO_An\commodity_exchange_application\commodity_exchange_application\obj\Debug\commodity_exchange_application.FormPostManagement.resources
+D:\Bin\HK2_3\Lap_Trinh_Win\DO_An\commodity_exchange_application\commodity_exchange_application\obj\Debug\commodity_exchange_application.FormItemsforSale.resources
+D:\Bin\HK2_3\Lap_Trinh_Win\DO_An\commodity_exchange_application\commodity_exchange_application\obj\Debug\commodity_exchange_application.FormSignUp.resources
+D:\Bin\HK2_3\Lap_Trinh_Win\DO_An\commodity_exchange_application\commodity_exchange_application\obj\Debug\commodity_exchange_application.FormLogin.resources
+D:\Bin\HK2_3\Lap_Trinh_Win\DO_An\commodity_exchange_application\commodity_exchange_application\obj\Debug\commodity_exchange_application.FormPersonalIdentification.resources
+D:\Bin\HK2_3\Lap_Trinh_Win\DO_An\commodity_exchange_application\commodity_exchange_application\obj\Debug\commodity_exchange_application.FormAccountSettings.resources
+D:\Bin\HK2_3\Lap_Trinh_Win\DO_An\commodity_exchange_application\commodity_exchange_application\obj\Debug\commodity_exchange_application.FormItemDetails.resources
+D:\Năm 3 - HK2\Lập trình Window\Đồ_Án_Cuối_Kỳ\commodity_exchange_application\commodity_exchange_application\obj\Debug\commodity_exchange_application.FormAccountSettings.resources
+D:\Năm 3 - HK2\Lập trình Window\Đồ_Án_Cuối_Kỳ\commodity_exchange_application\commodity_exchange_application\obj\Debug\commodity_exchange_application.FormItemDetails.resources
+D:\Năm 3 - HK2\Lập trình Window\Đồ_Án_Cuối_Kỳ\commodity_exchange_application\commodity_exchange_application\obj\Debug\commodity_exchange_application.FormItemsforSale.resources
+D:\Năm 3 - HK2\Lập trình Window\Đồ_Án_Cuối_Kỳ\commodity_exchange_application\commodity_exchange_application\obj\Debug\commodity_exchange_application.FormPersonalIdentification.resources
+D:\Năm 3 - HK2\Lập trình Window\Đồ_Án_Cuối_Kỳ\commodity_exchange_application\commodity_exchange_application\obj\Debug\commodity_exchange_application.FormPostManagement.resources
+D:\Năm 3 - HK2\Lập trình Window\Đồ_Án_Cuối_Kỳ\commodity_exchange_application\commodity_exchange_application\obj\Debug\commodity_exchange_application.FormSignUp.resources
+D:\Năm 3 - HK2\Lập trình Window\Đồ_Án_Cuối_Kỳ\commodity_exchange_application\commodity_exchange_application\obj\Debug\commodity_exchange_application.FormLogin.resources

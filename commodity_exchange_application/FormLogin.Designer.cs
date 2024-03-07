@@ -1,6 +1,6 @@
 ﻿namespace commodity_exchange_application
 {
-    partial class FromLogin
+    partial class FormLogin
     {
         /// <summary>
         /// Required designer variable.
@@ -196,6 +196,7 @@
             this.btnSignUp.TabIndex = 10;
             this.btnSignUp.Text = "Đăng ký";
             this.btnSignUp.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btnSignUp.Click += new System.EventHandler(this.btnSignUp_Click);
             // 
             // FromLogin
             // 
