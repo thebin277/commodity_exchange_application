@@ -17,9 +17,21 @@ namespace commodity_exchange_application
             InitializeComponent();
         }
 
+        private void label9_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void guna2GradientButton1_Click(object sender, EventArgs e)
         {
 
+
+        }
+
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            this.Close();
         }
     }
 }
