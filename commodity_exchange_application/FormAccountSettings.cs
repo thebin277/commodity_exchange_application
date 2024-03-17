@@ -17,10 +17,17 @@ namespace commodity_exchange_application
             InitializeComponent();
         }
 
-        private void btnlogout_Click(object sender, EventArgs e)
+        public void AddControls(Form f)
         {
-            this.Hide();
-            this.Close();
+            ControlsPanel.Controls.Clear();
+            f.Dock = DockStyle.Fill;
+            f.TopLevel = false;
+            ControlsPanel.Controls.Add(f);
+            f.Show();
+        }
+        private void btnlogout_Click_1(object sender, EventArgs e)
+        {
+            AddControls(new FormPersonal_Information());
         }
     }
 }
