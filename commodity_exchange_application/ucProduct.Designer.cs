@@ -29,26 +29,26 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ucProduct));
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblName = new System.Windows.Forms.Label();
             this.guna2RatingStar1 = new Guna.UI2.WinForms.Guna2RatingStar();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.txtImage = new System.Windows.Forms.PictureBox();
+            this.lblPrice = new System.Windows.Forms.Label();
+            this.lblOriPrice = new System.Windows.Forms.Label();
+            this.lblAddress = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtImage)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
+            // lblName
             // 
-            this.label1.AutoSize = true;
-            this.label1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            this.label1.Location = new System.Drawing.Point(18, 223);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(174, 32);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Xe đạp trẻ em";
+            this.lblName.AutoSize = true;
+            this.lblName.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lblName.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.lblName.Location = new System.Drawing.Point(18, 223);
+            this.lblName.Name = "lblName";
+            this.lblName.Size = new System.Drawing.Size(174, 32);
+            this.lblName.TabIndex = 0;
+            this.lblName.Text = "Xe đạp trẻ em";
             // 
             // guna2RatingStar1
             // 
@@ -58,52 +58,52 @@
             this.guna2RatingStar1.Size = new System.Drawing.Size(141, 39);
             this.guna2RatingStar1.TabIndex = 1;
             // 
-            // pictureBox1
+            // txtImage
             // 
-            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(323, 220);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
+            this.txtImage.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.txtImage.Dock = System.Windows.Forms.DockStyle.Top;
+            this.txtImage.Image = ((System.Drawing.Image)(resources.GetObject("txtImage.Image")));
+            this.txtImage.Location = new System.Drawing.Point(0, 0);
+            this.txtImage.Name = "txtImage";
+            this.txtImage.Size = new System.Drawing.Size(323, 220);
+            this.txtImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.txtImage.TabIndex = 2;
+            this.txtImage.TabStop = false;
             // 
-            // label14
+            // lblPrice
             // 
-            this.label14.AutoSize = true;
-            this.label14.BackColor = System.Drawing.Color.Transparent;
-            this.label14.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label14.Font = new System.Drawing.Font("Segoe UI", 16F);
-            this.label14.ForeColor = System.Drawing.Color.Red;
-            this.label14.Location = new System.Drawing.Point(20, 266);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(157, 45);
-            this.label14.TabIndex = 19;
-            this.label14.Text = "200,000 đ";
+            this.lblPrice.AutoSize = true;
+            this.lblPrice.BackColor = System.Drawing.Color.Transparent;
+            this.lblPrice.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lblPrice.Font = new System.Drawing.Font("Segoe UI", 16F);
+            this.lblPrice.ForeColor = System.Drawing.Color.Red;
+            this.lblPrice.Location = new System.Drawing.Point(20, 266);
+            this.lblPrice.Name = "lblPrice";
+            this.lblPrice.Size = new System.Drawing.Size(157, 45);
+            this.lblPrice.TabIndex = 19;
+            this.lblPrice.Text = "200,000 đ";
             // 
-            // label2
+            // lblOriPrice
             // 
-            this.label2.AutoSize = true;
-            this.label2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Strikeout);
-            this.label2.Location = new System.Drawing.Point(192, 278);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(109, 30);
-            this.label2.TabIndex = 20;
-            this.label2.Text = "400,000 đ";
+            this.lblOriPrice.AutoSize = true;
+            this.lblOriPrice.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lblOriPrice.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Strikeout);
+            this.lblOriPrice.Location = new System.Drawing.Point(192, 278);
+            this.lblOriPrice.Name = "lblOriPrice";
+            this.lblOriPrice.Size = new System.Drawing.Size(109, 30);
+            this.lblOriPrice.TabIndex = 20;
+            this.lblOriPrice.Text = "400,000 đ";
             // 
-            // label3
+            // lblAddress
             // 
-            this.label3.AutoSize = true;
-            this.label3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(22, 386);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(150, 32);
-            this.label3.TabIndex = 21;
-            this.label3.Text = "Hồ Chí Minh";
+            this.lblAddress.AutoSize = true;
+            this.lblAddress.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lblAddress.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAddress.Location = new System.Drawing.Point(22, 386);
+            this.lblAddress.Name = "lblAddress";
+            this.lblAddress.Size = new System.Drawing.Size(150, 32);
+            this.lblAddress.TabIndex = 21;
+            this.lblAddress.Text = "Hồ Chí Minh";
             // 
             // label4
             // 
@@ -122,16 +122,15 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label14);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.lblAddress);
+            this.Controls.Add(this.lblOriPrice);
+            this.Controls.Add(this.lblPrice);
+            this.Controls.Add(this.txtImage);
             this.Controls.Add(this.guna2RatingStar1);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblName);
             this.Name = "ucProduct";
             this.Size = new System.Drawing.Size(323, 442);
-            this.Click += new System.EventHandler(this.ucProduct_Click);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtImage)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -139,12 +138,12 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblName;
         private Guna.UI2.WinForms.Guna2RatingStar guna2RatingStar1;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.PictureBox txtImage;
+        private System.Windows.Forms.Label lblPrice;
+        private System.Windows.Forms.Label lblOriPrice;
+        private System.Windows.Forms.Label lblAddress;
         private System.Windows.Forms.Label label4;
     }
 }

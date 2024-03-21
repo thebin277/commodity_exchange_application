@@ -75,3 +75,4 @@ D:\Nam3\Ki_2\LapTrinhWin\main\commodity_exchange_application\commodity_exchange_
 D:\Năm 3 - HK2\Lập trình Window\Đồ_Án_Cuối_Kỳ\commodity_exchange_application\commodity_exchange_application\obj\Debug\commodity_exchange_application.FormMatHang.resources
 D:\Năm 3 - HK2\Lập trình Window\Đồ_Án_Cuối_Kỳ\commodity_exchange_application\commodity_exchange_application\obj\Debug\commodity_exchange_application.FormProductInfo.resources
 D:\Năm 3 - HK2\Lập trình Window\Đồ_Án_Cuối_Kỳ\commodity_exchange_application\commodity_exchange_application\obj\Debug\commodity_exchange_application.ucProduct.resources
+D:\Nam3\Ki_2\LapTrinhWin\main\commodity_exchange_application\commodity_exchange_application\obj\Debug\commodity_exchange_application.ucChiTietSP.resources
