@@ -25,10 +25,17 @@ namespace commodity_exchange_application
             ProductPanel.Controls.Add(f);
             f.Show();
         }
-
-        private void guna2Button4_Click(object sender, EventArgs e)
+        
+        private void btnDangBan_Click(object sender, EventArgs e)
         {
-            AddControls(new FormProductInfo());
+            FormDK_Ban ban = new FormDK_Ban();
+            ban.ShowDialog();
+        }
+
+        private void ucProduct1_MouseClick(object sender, MouseEventArgs e)
+        {
+            FormProductInfo ban = new FormProductInfo();
+            ban.ShowDialog();
         }
     }
 }
