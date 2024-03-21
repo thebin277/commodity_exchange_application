@@ -28,19 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMatHang));
             this.CategoryPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
             this.ProductPanel = new System.Windows.Forms.FlowLayoutPanel();
-            this.ucProduct1 = new commodity_exchange_application.ucProduct();
-            this.ucProduct2 = new commodity_exchange_application.ucProduct();
-            this.ucProduct3 = new commodity_exchange_application.ucProduct();
-            this.ucProduct7 = new commodity_exchange_application.ucProduct();
-            this.ucProduct4 = new commodity_exchange_application.ucProduct();
-            this.ucProduct5 = new commodity_exchange_application.ucProduct();
-            this.ucProduct6 = new commodity_exchange_application.ucProduct();
             this.guna2MatHang = new Guna.UI2.WinForms.Guna2Panel();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -50,7 +42,6 @@
             this.guna2DangBan = new Guna.UI2.WinForms.Guna2Panel();
             this.btnDangBan = new Guna.UI2.WinForms.Guna2Button();
             this.CategoryPanel.SuspendLayout();
-            this.ProductPanel.SuspendLayout();
             this.guna2MatHang.SuspendLayout();
             this.guna2DangBan.SuspendLayout();
             this.SuspendLayout();
@@ -110,100 +101,10 @@
             // ProductPanel
             // 
             this.ProductPanel.AutoScroll = true;
-            this.ProductPanel.Controls.Add(this.ucProduct1);
-            this.ProductPanel.Controls.Add(this.ucProduct2);
-            this.ProductPanel.Controls.Add(this.ucProduct3);
-            this.ProductPanel.Controls.Add(this.ucProduct7);
-            this.ProductPanel.Controls.Add(this.ucProduct4);
-            this.ProductPanel.Controls.Add(this.ucProduct5);
-            this.ProductPanel.Controls.Add(this.ucProduct6);
             this.ProductPanel.Location = new System.Drawing.Point(192, 149);
             this.ProductPanel.Name = "ProductPanel";
             this.ProductPanel.Size = new System.Drawing.Size(1011, 636);
             this.ProductPanel.TabIndex = 6;
-            // 
-            // ucProduct1
-            // 
-            this.ucProduct1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.ucProduct1.ItemImage = ((System.Drawing.Image)(resources.GetObject("ucProduct1.ItemImage")));
-            this.ucProduct1.ItemLabel = "Xe đạp trẻ em";
-            this.ucProduct1.ItemPrice = "200,000 đ";
-            this.ucProduct1.Location = new System.Drawing.Point(3, 3);
-            this.ucProduct1.Name = "ucProduct1";
-            this.ucProduct1.Size = new System.Drawing.Size(323, 442);
-            this.ucProduct1.TabIndex = 0;
-            this.ucProduct1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ucProduct1_MouseClick);
-            // 
-            // ucProduct2
-            // 
-            this.ucProduct2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.ucProduct2.ItemImage = ((System.Drawing.Image)(resources.GetObject("ucProduct2.ItemImage")));
-            this.ucProduct2.ItemLabel = "Xe đạp trẻ em";
-            this.ucProduct2.ItemPrice = "200,000 đ";
-            this.ucProduct2.Location = new System.Drawing.Point(332, 3);
-            this.ucProduct2.Name = "ucProduct2";
-            this.ucProduct2.Size = new System.Drawing.Size(323, 442);
-            this.ucProduct2.TabIndex = 1;
-            this.ucProduct2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ucProduct1_MouseClick);
-            // 
-            // ucProduct3
-            // 
-            this.ucProduct3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.ucProduct3.ItemImage = ((System.Drawing.Image)(resources.GetObject("ucProduct3.ItemImage")));
-            this.ucProduct3.ItemLabel = "Xe đạp trẻ em";
-            this.ucProduct3.ItemPrice = "200,000 đ";
-            this.ucProduct3.Location = new System.Drawing.Point(661, 3);
-            this.ucProduct3.Name = "ucProduct3";
-            this.ucProduct3.Size = new System.Drawing.Size(323, 442);
-            this.ucProduct3.TabIndex = 2;
-            this.ucProduct3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ucProduct1_MouseClick);
-            // 
-            // ucProduct7
-            // 
-            this.ucProduct7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.ucProduct7.ItemImage = ((System.Drawing.Image)(resources.GetObject("ucProduct7.ItemImage")));
-            this.ucProduct7.ItemLabel = "Xe đạp trẻ em";
-            this.ucProduct7.ItemPrice = "200,000 đ";
-            this.ucProduct7.Location = new System.Drawing.Point(3, 451);
-            this.ucProduct7.Name = "ucProduct7";
-            this.ucProduct7.Size = new System.Drawing.Size(323, 442);
-            this.ucProduct7.TabIndex = 6;
-            this.ucProduct7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ucProduct1_MouseClick);
-            // 
-            // ucProduct4
-            // 
-            this.ucProduct4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.ucProduct4.ItemImage = ((System.Drawing.Image)(resources.GetObject("ucProduct4.ItemImage")));
-            this.ucProduct4.ItemLabel = "Xe đạp trẻ em";
-            this.ucProduct4.ItemPrice = "200,000 đ";
-            this.ucProduct4.Location = new System.Drawing.Point(332, 451);
-            this.ucProduct4.Name = "ucProduct4";
-            this.ucProduct4.Size = new System.Drawing.Size(323, 442);
-            this.ucProduct4.TabIndex = 3;
-            this.ucProduct4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ucProduct1_MouseClick);
-            // 
-            // ucProduct5
-            // 
-            this.ucProduct5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.ucProduct5.ItemImage = ((System.Drawing.Image)(resources.GetObject("ucProduct5.ItemImage")));
-            this.ucProduct5.ItemLabel = "Xe đạp trẻ em";
-            this.ucProduct5.ItemPrice = "200,000 đ";
-            this.ucProduct5.Location = new System.Drawing.Point(661, 451);
-            this.ucProduct5.Name = "ucProduct5";
-            this.ucProduct5.Size = new System.Drawing.Size(323, 442);
-            this.ucProduct5.TabIndex = 4;
-            this.ucProduct5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ucProduct1_MouseClick);
-            // 
-            // ucProduct6
-            // 
-            this.ucProduct6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.ucProduct6.ItemImage = ((System.Drawing.Image)(resources.GetObject("ucProduct6.ItemImage")));
-            this.ucProduct6.ItemLabel = "Xe đạp trẻ em";
-            this.ucProduct6.ItemPrice = "200,000 đ";
-            this.ucProduct6.Location = new System.Drawing.Point(3, 899);
-            this.ucProduct6.Name = "ucProduct6";
-            this.ucProduct6.Size = new System.Drawing.Size(323, 442);
-            this.ucProduct6.TabIndex = 5;
             // 
             // guna2MatHang
             // 
@@ -318,7 +219,6 @@
             this.Tag = "Danh mục";
             this.Text = "FormMatHang";
             this.CategoryPanel.ResumeLayout(false);
-            this.ProductPanel.ResumeLayout(false);
             this.guna2MatHang.ResumeLayout(false);
             this.guna2MatHang.PerformLayout();
             this.guna2DangBan.ResumeLayout(false);
@@ -341,12 +241,5 @@
         private System.Windows.Forms.Label lblTimKiem;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox comboBox1;
-        private ucProduct ucProduct1;
-        private ucProduct ucProduct2;
-        private ucProduct ucProduct3;
-        private ucProduct ucProduct7;
-        private ucProduct ucProduct4;
-        private ucProduct ucProduct5;
-        private ucProduct ucProduct6;
     }
 }

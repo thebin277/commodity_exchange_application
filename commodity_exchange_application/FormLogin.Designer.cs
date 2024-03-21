@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormLogin));
             this.txtUserName = new Guna.UI.WinForms.GunaTextBox();
             this.txtPassWord = new Guna.UI.WinForms.GunaTextBox();
             this.btnSignIn = new Guna.UI.WinForms.GunaButton();
@@ -37,8 +38,8 @@
             this.gunaPanel3 = new Guna.UI.WinForms.GunaPanel();
             this.gunaLabel1 = new Guna.UI.WinForms.GunaLabel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.gunaPanel1 = new Guna.UI.WinForms.GunaPanel();
             this.btnSignUp = new Guna.UI.WinForms.GunaButton();
+            this.gunaPanel1 = new Guna.UI.WinForms.GunaPanel();
             this.gunaPanel3.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -162,15 +163,6 @@
             this.panel1.Size = new System.Drawing.Size(96, 86);
             this.panel1.TabIndex = 3;
             // 
-            // gunaPanel1
-            // 
-            this.gunaPanel1.BackgroundImage = global::commodity_exchange_application.Properties.Resources.logo2;
-            this.gunaPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.gunaPanel1.Location = new System.Drawing.Point(1, 2);
-            this.gunaPanel1.Name = "gunaPanel1";
-            this.gunaPanel1.Size = new System.Drawing.Size(346, 457);
-            this.gunaPanel1.TabIndex = 0;
-            // 
             // btnSignUp
             // 
             this.btnSignUp.AnimationHoverSpeed = 0.07F;
@@ -198,11 +190,21 @@
             this.btnSignUp.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.btnSignUp.Click += new System.EventHandler(this.btnSignUp_Click);
             // 
-            // FromLogin
+            // gunaPanel1
+            // 
+            this.gunaPanel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("gunaPanel1.BackgroundImage")));
+            this.gunaPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.gunaPanel1.Location = new System.Drawing.Point(1, 2);
+            this.gunaPanel1.Name = "gunaPanel1";
+            this.gunaPanel1.Size = new System.Drawing.Size(346, 457);
+            this.gunaPanel1.TabIndex = 0;
+            // 
+            // FormLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.ClientSize = new System.Drawing.Size(800, 459);
             this.Controls.Add(this.btnSignUp);
             this.Controls.Add(this.gunaPanel3);
             this.Controls.Add(this.gunaPanel2);
@@ -212,7 +214,9 @@
             this.Controls.Add(this.txtPassWord);
             this.Controls.Add(this.txtUserName);
             this.Controls.Add(this.gunaPanel1);
-            this.Name = "FromLogin";
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "FormLogin";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
             this.gunaPanel3.ResumeLayout(false);
             this.gunaPanel3.PerformLayout();
@@ -222,8 +226,6 @@
         }
 
         #endregion
-
-        private Guna.UI.WinForms.GunaPanel gunaPanel1;
         private Guna.UI.WinForms.GunaTextBox txtUserName;
         private Guna.UI.WinForms.GunaTextBox txtPassWord;
         private Guna.UI.WinForms.GunaButton btnSignIn;
@@ -234,6 +236,7 @@
         private Guna.UI.WinForms.GunaLabel gunaLabel1;
         private System.Windows.Forms.Panel panel1;
         private Guna.UI.WinForms.GunaButton btnSignUp;
+        private Guna.UI.WinForms.GunaPanel gunaPanel1;
     }
 }
 
