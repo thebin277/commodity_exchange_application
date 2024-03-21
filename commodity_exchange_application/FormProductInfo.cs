@@ -33,5 +33,10 @@ namespace commodity_exchange_application
             this.Hide();
             this.Close();
         }
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

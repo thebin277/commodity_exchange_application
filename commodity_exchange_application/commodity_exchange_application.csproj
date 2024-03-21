@@ -144,6 +144,12 @@
     <Compile Include="Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ucChiTietSP.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucChiTietSP.Designer.cs">
+      <DependentUpon>ucChiTietSP.cs</DependentUpon>
+    </Compile>
     <Compile Include="ucProduct.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -203,6 +209,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="ucChiTietSP.resx">
+      <DependentUpon>ucChiTietSP.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ucProduct.resx">
       <DependentUpon>ucProduct.cs</DependentUpon>
     </EmbeddedResource>

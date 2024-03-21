@@ -12,53 +12,43 @@ namespace commodity_exchange_application
 {
     public partial class ucProduct : UserControl
     {
-            public event EventHandler Click;
-
         public ucProduct()
         {
             InitializeComponent();
-            // Đăng ký sự kiện Click cho UserControl
-            this.Click += ucProduct_Click;
+
         }
 
-        private void ucProduct_Click(object sender, EventArgs e)
-        {
-            FormProductInfo formProductInfo = new FormProductInfo();
-            formProductInfo.ShowDialog();
+        public event EventHandler onSelect = null;
+
+        public int id { get; set; }
+
+        public string PPrice 
+        { 
+            get { return lblPrice.Text; }
+            set { lblPrice.Text = value; }
         }
 
-        public Image ItemImage 
+        public string POriPrice 
+        { 
+            get { return lblOriPrice.Text; }
+            set { lblOriPrice.Text = value; }
+        }
+
+        public Image PImage 
         {
-            get
-            {
-                return pictureBox1.Image;
-            }
-            set
-            {
-                pictureBox1.Image = value;
-            }
+            get { return txtImage.Image; }
+            set { txtImage.Image = value; }
         }    
-        public string ItemLabel
+        public string PName
         {
-            get
-            {
-                return label1.Text;
-            }
-            set
-            {
-                label1.Text = value;
-            }
+            get { return lblName.Text; }           
+            set { lblName.Text = value; }            
         }
-        public string ItemPrice
-        {
-            get
-            {
-                return label14.Text;
-            }
-            set
-            {
-                label14.Text = value;
-            }
+        
+        public string PAddress
+        { 
+           get { return lblAddress.Text; } 
+           set { lblAddress.Text = value; } 
         }
 
         
