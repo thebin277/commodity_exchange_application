@@ -86,3 +86,4 @@ D:\Nam3\Ki_2\LapTrinhWin\main\commodity_exchange_application\commodity_exchange_
 D:\Bin\HK2_3\Lap_Trinh_Win\DO_An\commodity_exchange_application\commodity_exchange_application\obj\Debug\commodity_exchange_application.ucChiTietSP.resources
 D:\Năm 3 - HK2\Lập trình Window\Đồ_Án_Cuối_Kỳ\commodity_exchange_application\commodity_exchange_application\obj\Debug\commodity_exchange_application.ucChiTietSP.resources
 >>>>>>> bcd6f8697e56453d56074ead23c3687121c2d296
+D:\Năm 3 - HK2\Lập trình Window\Đồ_Án_Cuối_Kỳ\commodity_exchange_application\commodity_exchange_application\obj\Debug\commodity_exchange_application.ucPost.resources
