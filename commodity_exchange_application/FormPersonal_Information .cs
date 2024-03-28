@@ -16,30 +16,38 @@ namespace commodity_exchange_application
         {
             InitializeComponent();
         }
-
-        private void gunaButton1_Click(object sender, EventArgs e)
+        public void AddControls(Form f)
         {
-         //   this.Hide();
-            FormPersonalIdentification FormPersonalIdentification = new FormPersonalIdentification();
-            FormPersonalIdentification.ShowDialog();
-           // this.Close();
+            ControlsPanel.Controls.Clear();
+            f.Dock = DockStyle.Fill;
+            f.TopLevel = false;
+            ControlsPanel.Controls.Add(f);
+            f.Show();
+        }
+
+       
+        private void FormPersonal_Information_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gunaButton1_Click_1(object sender, EventArgs e)
+        {
+            AddControls(new FormPersonalIdentification());
+        }
+
+        private void guna2Button2_Click_1(object sender, EventArgs e)
+        {
+            this.ParentForm.Hide();
+            FormLogin FormLogin = new FormLogin();
+            // this.Visible = false;
+            FormLogin.ShowDialog();
+            this.ParentForm.Close();
         }
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-            //   this.Hide();
-            FormPersonalIdentification FormPersonalIdentification = new FormPersonalIdentification();
-            FormPersonalIdentification.ShowDialog();
-            // this.Close();
-        }
-
-        private void guna2Button2_Click(object sender, EventArgs e)
-        {
-            this.ParentForm.Hide();
-            FormLogin FormLogin = new FormLogin();
-           // this.Visible = false;
-            FormLogin.ShowDialog();
-            this.ParentForm.Close();
+            AddControls(new FormAccountSettings());
         }
     }
 }
