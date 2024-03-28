@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Guna.UI2.WinForms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,12 +18,25 @@ namespace commodity_exchange_application
             InitializeComponent();
         }
 
+
+        Account acc = new Account();
+        AccountDAO accDAO = new AccountDAO();
         private void gunaButton1_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            FormHome formHome = new FormHome();
-            formHome.ShowDialog();
-            this.Close();
+            acc = new Account(txtUserName.Text, txtPassWord.Text);
+            accDAO = new AccountDAO();
+            if (accDAO.IsValidUser(acc) == false)
+            {
+                guna2MessageDialog1.Show("Sai tên tài khoản hoặc sai mật khẩu!\nVui lòng nhập lại!");
+                return;
+            }
+            else
+            {
+                this.Hide();
+                FormHome formHome = new FormHome();
+                formHome.ShowDialog();
+                this.Close();
+            }
         }
 
         private void btnSignUp_Click(object sender, EventArgs e)

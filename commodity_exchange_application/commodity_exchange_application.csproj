@@ -57,6 +57,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Account.cs" />
+    <Compile Include="AccountDAO.cs" />
     <Compile Include="DBConnection.cs" />
     <Compile Include="FormAccountSettings.cs">
       <SubType>Form</SubType>
@@ -163,6 +165,8 @@
     <Compile Include="ucProduct.Designer.cs">
       <DependentUpon>ucProduct.cs</DependentUpon>
     </Compile>
+    <Compile Include="User.cs" />
+    <Compile Include="UserDAO.cs" />
     <EmbeddedResource Include="FormAccountSettings.resx">
       <DependentUpon>FormAccountSettings.cs</DependentUpon>
     </EmbeddedResource>

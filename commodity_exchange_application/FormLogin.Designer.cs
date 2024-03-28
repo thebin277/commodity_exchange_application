@@ -40,6 +40,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnSignUp = new Guna.UI.WinForms.GunaButton();
             this.gunaPanel1 = new Guna.UI.WinForms.GunaPanel();
+            this.guna2MessageDialog1 = new Guna.UI2.WinForms.Guna2MessageDialog();
             this.gunaPanel3.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -199,6 +200,15 @@
             this.gunaPanel1.Size = new System.Drawing.Size(346, 457);
             this.gunaPanel1.TabIndex = 0;
             // 
+            // guna2MessageDialog1
+            // 
+            this.guna2MessageDialog1.Buttons = Guna.UI2.WinForms.MessageDialogButtons.OK;
+            this.guna2MessageDialog1.Caption = "RMS";
+            this.guna2MessageDialog1.Icon = Guna.UI2.WinForms.MessageDialogIcon.Warning;
+            this.guna2MessageDialog1.Parent = this;
+            this.guna2MessageDialog1.Style = Guna.UI2.WinForms.MessageDialogStyle.Default;
+            this.guna2MessageDialog1.Text = null;
+            // 
             // FormLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -237,6 +247,7 @@
         private System.Windows.Forms.Panel panel1;
         private Guna.UI.WinForms.GunaButton btnSignUp;
         private Guna.UI.WinForms.GunaPanel gunaPanel1;
+        private Guna.UI2.WinForms.Guna2MessageDialog guna2MessageDialog1;
     }
 }
 
