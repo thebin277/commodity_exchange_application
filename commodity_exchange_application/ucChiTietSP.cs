@@ -16,5 +16,39 @@ namespace commodity_exchange_application
         {
             InitializeComponent();
         }
+
+        public Image ItemImageCT
+        {
+            get
+            {
+                return txtImageCT.Image;
+            }
+            set
+            {
+                txtImageCT.Image = value;
+            }
+        }
+        public string ItemNameCT
+        {
+            get
+            {
+                return lblNameCT.Text;
+            }
+            set
+            {
+                lblNameCT.Text = value;
+            }
+        }
+        public string ItemPriceCT
+        {
+            get
+            {
+                return lblPrice.Text;
+            }
+            set
+            {
+                lblPrice.Text = value;
+            }
+        }
     }
 }

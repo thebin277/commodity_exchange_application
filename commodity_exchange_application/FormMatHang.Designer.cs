@@ -51,9 +51,10 @@
             this.CategoryPanel.Controls.Add(this.guna2Button1);
             this.CategoryPanel.Controls.Add(this.guna2Button2);
             this.CategoryPanel.Controls.Add(this.guna2Button3);
-            this.CategoryPanel.Location = new System.Drawing.Point(11, 186);
+            this.CategoryPanel.Location = new System.Drawing.Point(10, 149);
+            this.CategoryPanel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.CategoryPanel.Name = "CategoryPanel";
-            this.CategoryPanel.Size = new System.Drawing.Size(175, 543);
+            this.CategoryPanel.Size = new System.Drawing.Size(156, 434);
             this.CategoryPanel.TabIndex = 5;
             // 
             // guna2Button1
@@ -64,9 +65,10 @@
             this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.Location = new System.Drawing.Point(3, 3);
+            this.guna2Button1.Location = new System.Drawing.Point(3, 2);
+            this.guna2Button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(172, 70);
+            this.guna2Button1.Size = new System.Drawing.Size(153, 56);
             this.guna2Button1.TabIndex = 0;
             this.guna2Button1.Text = "Mat hang 1";
             // 
@@ -78,9 +80,10 @@
             this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button2.ForeColor = System.Drawing.Color.White;
-            this.guna2Button2.Location = new System.Drawing.Point(3, 79);
+            this.guna2Button2.Location = new System.Drawing.Point(3, 62);
+            this.guna2Button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(172, 70);
+            this.guna2Button2.Size = new System.Drawing.Size(153, 56);
             this.guna2Button2.TabIndex = 1;
             this.guna2Button2.Text = "Mat hang 2";
             // 
@@ -92,18 +95,20 @@
             this.guna2Button3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.guna2Button3.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button3.ForeColor = System.Drawing.Color.White;
-            this.guna2Button3.Location = new System.Drawing.Point(3, 155);
+            this.guna2Button3.Location = new System.Drawing.Point(3, 122);
+            this.guna2Button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button3.Name = "guna2Button3";
-            this.guna2Button3.Size = new System.Drawing.Size(172, 70);
+            this.guna2Button3.Size = new System.Drawing.Size(153, 56);
             this.guna2Button3.TabIndex = 2;
             this.guna2Button3.Text = "Mat hang 3";
             // 
             // ProductPanel
             // 
             this.ProductPanel.AutoScroll = true;
-            this.ProductPanel.Location = new System.Drawing.Point(192, 149);
+            this.ProductPanel.Location = new System.Drawing.Point(171, 119);
+            this.ProductPanel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ProductPanel.Name = "ProductPanel";
-            this.ProductPanel.Size = new System.Drawing.Size(1011, 636);
+            this.ProductPanel.Size = new System.Drawing.Size(899, 509);
             this.ProductPanel.TabIndex = 6;
             // 
             // guna2MatHang
@@ -116,25 +121,27 @@
             this.guna2MatHang.Dock = System.Windows.Forms.DockStyle.Top;
             this.guna2MatHang.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.guna2MatHang.Location = new System.Drawing.Point(0, 0);
+            this.guna2MatHang.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2MatHang.Name = "guna2MatHang";
-            this.guna2MatHang.Size = new System.Drawing.Size(1215, 100);
+            this.guna2MatHang.Size = new System.Drawing.Size(1080, 80);
             this.guna2MatHang.TabIndex = 4;
             // 
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(451, 34);
+            this.comboBox1.Location = new System.Drawing.Point(401, 27);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(226, 28);
+            this.comboBox1.Size = new System.Drawing.Size(201, 24);
             this.comboBox1.TabIndex = 11;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.label1.Location = new System.Drawing.Point(313, 34);
+            this.label1.Location = new System.Drawing.Point(278, 27);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(122, 32);
+            this.label1.Size = new System.Drawing.Size(98, 28);
             this.label1.TabIndex = 10;
             this.label1.Text = "Tìm theo: ";
             // 
@@ -149,22 +156,23 @@
             this.txtTimKiem.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtTimKiem.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtTimKiem.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtTimKiem.Location = new System.Drawing.Point(825, 34);
-            this.txtTimKiem.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtTimKiem.Location = new System.Drawing.Point(733, 27);
+            this.txtTimKiem.Margin = new System.Windows.Forms.Padding(4);
             this.txtTimKiem.Name = "txtTimKiem";
             this.txtTimKiem.PasswordChar = '\0';
             this.txtTimKiem.PlaceholderText = "";
             this.txtTimKiem.SelectedText = "";
-            this.txtTimKiem.Size = new System.Drawing.Size(364, 32);
+            this.txtTimKiem.Size = new System.Drawing.Size(324, 26);
             this.txtTimKiem.TabIndex = 8;
+            this.txtTimKiem.TextChanged += new System.EventHandler(this.txtTimKiem_TextChanged);
             // 
             // lblTimKiem
             // 
             this.lblTimKiem.AutoSize = true;
             this.lblTimKiem.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.lblTimKiem.Location = new System.Drawing.Point(693, 34);
+            this.lblTimKiem.Location = new System.Drawing.Point(616, 27);
             this.lblTimKiem.Name = "lblTimKiem";
-            this.lblTimKiem.Size = new System.Drawing.Size(125, 32);
+            this.lblTimKiem.Size = new System.Drawing.Size(100, 28);
             this.lblTimKiem.TabIndex = 9;
             this.lblTimKiem.Text = "Tìm kiếm: ";
             // 
@@ -174,9 +182,9 @@
             this.lbMatHang.BackColor = System.Drawing.Color.Transparent;
             this.lbMatHang.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
             this.lbMatHang.ForeColor = System.Drawing.Color.White;
-            this.lbMatHang.Location = new System.Drawing.Point(51, 31);
+            this.lbMatHang.Location = new System.Drawing.Point(45, 25);
             this.lbMatHang.Name = "lbMatHang";
-            this.lbMatHang.Size = new System.Drawing.Size(160, 37);
+            this.lbMatHang.Size = new System.Drawing.Size(133, 31);
             this.lbMatHang.TabIndex = 0;
             this.lbMatHang.Text = "Mặt hàng ";
             // 
@@ -185,9 +193,10 @@
             this.guna2DangBan.Controls.Add(this.btnDangBan);
             this.guna2DangBan.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.guna2DangBan.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.guna2DangBan.Location = new System.Drawing.Point(0, 791);
+            this.guna2DangBan.Location = new System.Drawing.Point(0, 633);
+            this.guna2DangBan.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2DangBan.Name = "guna2DangBan";
-            this.guna2DangBan.Size = new System.Drawing.Size(1215, 74);
+            this.guna2DangBan.Size = new System.Drawing.Size(1080, 59);
             this.guna2DangBan.TabIndex = 7;
             // 
             // btnDangBan
@@ -198,26 +207,29 @@
             this.btnDangBan.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnDangBan.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnDangBan.ForeColor = System.Drawing.Color.White;
-            this.btnDangBan.Location = new System.Drawing.Point(931, 17);
+            this.btnDangBan.Location = new System.Drawing.Point(828, 14);
+            this.btnDangBan.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnDangBan.Name = "btnDangBan";
-            this.btnDangBan.Size = new System.Drawing.Size(180, 45);
+            this.btnDangBan.Size = new System.Drawing.Size(160, 36);
             this.btnDangBan.TabIndex = 0;
             this.btnDangBan.Text = "Đăng bán ";
             this.btnDangBan.Click += new System.EventHandler(this.btnDangBan_Click);
             // 
             // FormMatHang
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1215, 865);
+            this.ClientSize = new System.Drawing.Size(1080, 692);
             this.Controls.Add(this.guna2MatHang);
             this.Controls.Add(this.CategoryPanel);
             this.Controls.Add(this.ProductPanel);
             this.Controls.Add(this.guna2DangBan);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "FormMatHang";
             this.Tag = "Danh mục";
             this.Text = "FormMatHang";
+            this.Load += new System.EventHandler(this.FormMatHang_Load);
             this.CategoryPanel.ResumeLayout(false);
             this.guna2MatHang.ResumeLayout(false);
             this.guna2MatHang.PerformLayout();

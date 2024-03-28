@@ -15,42 +15,62 @@ namespace commodity_exchange_application
         public ucProduct()
         {
             InitializeComponent();
+            // Đăng ký sự kiện Click cho UserControl
+            this.Click += ucProduct_Click;
 
         }
+        public void ucProduct_Click(object sender, EventArgs e)
+        {
+            FormProductInfo frm = new FormProductInfo(label1.Text);
 
+            frm.ShowDialog();
+        }
         public event EventHandler onSelect = null;
 
-        public int id { get; set; }
-
-        public string PPrice 
-        { 
-            get { return lblPrice.Text; }
-            set { lblPrice.Text = value; }
-        }
-
-        public string POriPrice 
-        { 
-            get { return lblOriPrice.Text; }
-            set { lblOriPrice.Text = value; }
-        }
-
-        public Image PImage 
+        public Image ItemImage
         {
-            get { return txtImage.Image; }
-            set { txtImage.Image = value; }
-        }    
-        public string PName
-        {
-            get { return lblName.Text; }           
-            set { lblName.Text = value; }            
+            get
+            {
+                return pictureBox1.Image;
+            }
+            set
+            {
+                pictureBox1.Image = value;
+            }
         }
-        
-        public string PAddress
-        { 
-           get { return lblAddress.Text; } 
-           set { lblAddress.Text = value; } 
+        public string ItemLabel
+        {
+            get
+            {
+                return label1.Text;
+            }
+            set
+            {
+                label1.Text = value;
+            }
+        }
+        public string ItemPrice
+        {
+            get
+            {
+                return label14.Text;
+            }
+            set
+            {
+                label14.Text = value;
+            }
         }
 
-        
+        private void label1_Click(object sender, EventArgs e)
+        {
+            FormProductInfo formProductInfo = new FormProductInfo(label1.Text);
+
+            formProductInfo.ShowDialog();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            onSelect?.Invoke(this, e);
+        }
     }
 }
